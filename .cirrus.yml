@@ -7,6 +7,27 @@ task:
     matrix:
       - PACKAGE: icu4c@72
       - PACKAGE: icu4c@71
+      - PACKAGE: icu4c@70
+      - PACKAGE: icu4c@69
+      - PACKAGE: icu4c@68
+      - PACKAGE: icu4c@67
+      - PACKAGE: icu4c@66
+      - PACKAGE: icu4c@65
+      - PACKAGE: icu4c@64
+      - PACKAGE: icu4c@63
+      - PACKAGE: icu4c@62
+      - PACKAGE: icu4c@61
+      - PACKAGE: icu4c@60
+      - PACKAGE: icu4c@59
+      - PACKAGE: icu4c@58
+      - PACKAGE: icu4c@57
+      - PACKAGE: icu4c@56
+      - PACKAGE: icu4c@55
+      - PACKAGE: icu4c@54
+      - PACKAGE: icu4c@53
+      - PACKAGE: icu4c@52
+      - PACKAGE: icu4c@51
+      - PACKAGE: icu4c@50
   setup_script:
     - brew update
     - mkdir -p $(brew --repo)/Library/Taps/cirrus
